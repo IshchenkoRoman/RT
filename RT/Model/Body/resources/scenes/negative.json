@@ -1,0 +1,137 @@
+{
+	"objects": [
+		{
+			"type": "SPHERE",
+			"config": {
+				"point": {"x": 0, "y": 0, "z": -100000},
+				"r": 100000
+			},
+			"emission": {"r": 0, "g": 0, "b": 0}
+		},
+		{
+			"type": "SPHERE",
+			"config": {
+				"point": {"x": -800, "y": -800, "z": 500},
+				"r": 150
+			},
+			"emission": {"r": 15, "g": 15, "b": 15}
+		},
+		{
+			"type": "SPHERE",
+			"config": {
+				"point": {"x": 0, "y": 0, "z": 200},
+				"r": 200,
+				"color": {"r": 0.75, "g": 0.95, "b": 0.15}
+			},
+			"emission": {"r": 0, "g": 0, "b": 0}
+		},
+		{
+			"type": "SPHERE",
+			"config": {
+				"point": {"x": 0, "y": -150, "z": 200},
+				"r": 200,
+				"color": {"r": 0.75, "g": 0.95, "b": 0.15}
+			},
+			"emission": {"r": 0, "g": 0, "b": 0}
+		},
+		{
+			"type": "SPHERE",
+			"config": {
+				"point": {"x": -150, "y": 0, "z": 200},
+				"r": 200,
+				"color": {"r": 0.15, "g": 0.75, "b": 0.95}
+			},
+			"emission": {"r": 0, "g": 0, "b": 0}
+		},
+		{
+			"type": "SPHERE",
+			"config": {
+				"point": {"x": 150, "y": 0, "z": 100},
+				"r": 200,
+				"color": {"r": 0.95, "g": 0.15, "b": 0.75}
+			},
+			"emission": {"r": 0, "g": 0, "b": 0}
+		},
+		{
+			"type": "PLANE",
+			"config": {
+				"point": {"x": 0, "y": 0, "z": 0},
+				"n": {"x": 0, "y": 0, "z": 1},
+				"color": {"r": 0.84, "g": 0.84, "b": 0.95}
+			}
+		},
+		{
+			"type": "PLANE",
+			"config": {
+				"point": {"x": 0, "y": 0, "z": 1200},
+				"n": {"x": 0, "y": 0, "z": 1},
+				"color": {"r": 0.93, "g": 0.93, "b": 0.95}
+			}
+		},
+		{
+			"type": "PLANE",
+			"config": {
+				"point": {"x": 0, "y": -1000, "z": 0},
+				"n": {"x": 0, "y": 1, "z": 0},
+				"color": {"r": 0.93, "g": 0.84, "b": 0.85}
+			}
+		},
+		{
+			"type": "PLANE",
+			"config": {
+				"point": {"x": 0, "y": 1000, "z": 0},
+				"n": {"x": 0, "y": 1, "z": 0},
+				"color": {"r": 0.93, "g": 0.84, "b": 0.95}
+			}
+		},
+		{
+			"type": "PLANE",
+			"config": {
+				"point": {"x": 1000, "y": 0, "z": 0},
+				"n": {"x": 1, "y": 0, "z": 0},
+				"color": {"r": 0.93, "g": 0.34, "b": 0.95}
+			}
+		},
+		{
+			"type": "PLANE",
+			"config": {
+				"point": {"x": -1000, "y": 0, "z": 0},
+				"n": {"x": 1, "y": 0, "z": 0},
+				"color": {"r": 0.43, "g": 0.84, "b": 0.95}
+			}
+		}
+	],
+	"negative object": [
+		{
+			"type": "CYLINDER",
+			"config": {
+				"point": {"x": -250, "y": -150, "z": 325},
+				"dir": {"x": 1, "y": 0, "z": 0},
+				"r": 150,
+				"top": 500,
+				"color": {"r": 0.95, "g": 0.15, "b": 0.75}
+			}
+		}
+	],
+	"spotlights": [
+		{
+			"point": {"x": -150, "y": -960, "z": 670},
+			"dir": {"x": 50, "y": 310, "z": -120},
+			"emission": {"r": 20, "g": 20, "b": 20},
+			"radius": 75,
+			"alpha": 5
+		}
+	],
+	"cam": {
+		"point": {"x": -342.996613, "y": -830.541138, "z": 650.997437},
+		"fov": 66.6,
+		"dir": {"x": 0, "y": 0, "z": 0},
+		"exposition time": 1,
+		"focal length": 400.0,
+		"aperture": 10.0
+	},
+	"environment": {
+		"spp per call": 1,
+		"map": "None"
+	}
+}

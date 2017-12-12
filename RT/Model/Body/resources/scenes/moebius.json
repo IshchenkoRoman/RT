@@ -1,0 +1,90 @@
+{
+	"objects": [
+		{
+			"type": "SPHERE",
+			"config": {
+				"point": {"x": 0, "y": 0, "z": 1000},
+				"r": 200,
+				"color": {"r": 1, "g": 1, "b": 1}
+			},
+			"emission": {"r": 15, "g": 15, "b": 15}
+		},
+		{
+			"type": "PLANE",
+			"config": {
+				"point": {"x": 0, "y": 0, "z": 0},
+				"n": {"x": 0, "y": 0, "z": 1},
+				"color": {"r": 1, "g": 1, "b": 1}
+			}
+		},
+		{
+			"type": "MOEBIUS",
+			"config": {
+				"point": {"x": -200, "y": -200, "z": 100},
+				"dir": {"x": 1, "y": 0, "z": 1},
+				"width": 50,
+				"r": 100,
+				"color": {"r": 1, "g": 0.65, "b": 0.75}
+			}
+		},
+		{
+			"type": "MOEBIUS",
+			"config": {
+				"point": {"x": -100, "y": -100, "z": 200},
+				"dir": {"x": 0, "y": 1, "z": 1},
+				"width": 50,
+				"r": 100,
+				"color": {"r": 1, "g": 0.65, "b": 0.75}
+			}
+		},
+		{
+			"type": "MOEBIUS",
+			"config": {
+				"point": {"x": 0, "y": 0, "z": 300},
+				"dir": {"x": 0, "y": -1, "z": 1},
+				"width": 50,
+				"r": 100,
+				"color": {"r": 1, "g": 0.65, "b": 0.75}
+			}
+		},
+		{
+			"type": "MOEBIUS",
+			"config": {
+				"point": {"x": 100, "y": 100, "z": 400},
+				"dir": {"x": -1, "y": 0, "z": 1},
+				"width": 50,
+				"r": 100,
+				"color": {"r": 1, "g": 0.65, "b": 0.75}
+			}
+		},
+		{
+			"type": "SPHERE",
+			"config": {
+				"point": {"x": 0, "y": 0, "z": -100000},
+				"r": 100000
+			},
+			"emission": {"r": 0, "g": 0, "b": 0}
+		}
+	],
+	"spotlights": [
+		{
+			"point": {"x": -100, "y": -650, "z": 550},
+			"dir": {"x": 50, "y": 310, "z": -120},
+			"emission": {"r": 20, "g": 20, "b": 20},
+			"radius": 75,
+			"alpha": 5
+		}
+	],
+	"cam": {
+		"point": {"x": 450, "y": 450, "z": 450},
+		"fov": 66.6,
+		"dir": {"x": 0, "y": 0, "z": 0},
+		"exposition time": 1,
+		"focal length": 400.0,
+		"aperture": 10.0
+	},
+	"environment": {
+		"spp per call": 1
+	}
+}
+
